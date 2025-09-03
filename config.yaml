@@ -1,0 +1,31 @@
+# config.yaml
+
+github_tokens: 
+  - "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"
+  - "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"
+
+allowed_extensions:
+  - ".py"
+  - ".js"
+  - ".cpp"
+  - ".ts"
+  - ".json"
+  - ".java"
+  - ".html"
+  - ".css"
+  - ".md"
+  - ".txt"
+  - ".go"
+  - ".rb"
+  - ".rs"
+  - ".php"
+  - ".xml"
+
+excluded_filenames:
+  - ".gitignore"
+  - ".env"
+
+parallel_limit: 10
+
+max_repos: 200
+max_total_size_mb: 70000

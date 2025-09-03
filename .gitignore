@@ -1,0 +1,71 @@
+# Exclude everything by default
+*
+
+# But include these essential files and folders
+!scripts/
+!*.py
+!*.md
+!*.yaml
+!.gitignore
+!.gitattributes
+
+# Exclude ALL large files and data (including LFS files)
+**/*.pkl
+**/*.joblib
+**/*.bin
+**/*.data-00000-of-00001
+**/*.index
+**/*.c2s
+**/*.num_examples
+**/*.json
+**/*.csv
+
+# Exclude specific large directories completely
+**/CodeBERTEmbeddings/
+**/feature_cache/
+**/ml_models/
+**/models/
+**/data/
+**/design_pattern_dataset/
+**/ExtractedPaths/
+**/ASTFeaturesForAnalysis/
+**/CombinedAnalysis/
+**/enhanced_analysis_results/
+**/comprehensive_dataset_analysis/
+**/Legacy Projects*/
+**/Project Progress*/
+**/Repo analyzer*/
+
+# Exclude cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Exclude logs
+*.log
+log.txt
+
+# Exclude environment files
+.env
+secret.env
+*.env
+
+# Exclude IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
