@@ -1,0 +1,386 @@
+{
+  "overall_statistics": {
+    "total_repositories": 61,
+    "successful_analyses": 61,
+    "average_confidence": 0.15792097672931982,
+    "min_confidence": 0.11803415712113384,
+    "max_confidence": 0.24370773489170214
+  },
+  "pattern_distribution": {
+    "abstract_factory_pattern": 35,
+    "adapter_pattern": 22,
+    "singleton_pattern": 1,
+    "factory_method_pattern": 1,
+    "composite_pattern": 1,
+    "observer_pattern": 1
+  },
+  "high_confidence_detections": [
+    {
+      "repository": "react-projects",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.21476536447131048
+    },
+    {
+      "repository": "contact-keeper",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.23449916157397485
+    },
+    {
+      "repository": "expense-tracker-mern",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.24370773489170214
+    },
+    {
+      "repository": "mern-auth",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.20333533533028797
+    },
+    {
+      "repository": "np",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.20381731163821706
+    },
+    {
+      "repository": "examples",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.2148033748493953
+    },
+    {
+      "repository": "react-native-template-typescript",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.23563291457832627
+    },
+    {
+      "repository": "react-native-netinfo",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.20302944778215465
+    },
+    {
+      "repository": "react-native-async-storage",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.21961877407945565
+    },
+    {
+      "repository": "create-react-app",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.20535460992093815
+    },
+    {
+      "repository": "vue",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.20475934373473723
+    },
+    {
+      "repository": "notebook",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.2008146468538951
+    }
+  ],
+  "detailed_results": [
+    {
+      "repository": "50projects50days",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.1643475572876324
+    },
+    {
+      "repository": "react-projects",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.21476536447131048
+    },
+    {
+      "repository": "javascript-basic-projects",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.1843533364610268
+    },
+    {
+      "repository": "vanillawebprojects",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.1738226723989959
+    },
+    {
+      "repository": "expense-tracker-react",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.19875452931508075
+    },
+    {
+      "repository": "react-crash-2021",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.1911069413780608
+    },
+    {
+      "repository": "taskmanager",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.16901734435646396
+    },
+    {
+      "repository": "contact-keeper",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.23449916157397485
+    },
+    {
+      "repository": "expense-tracker-mern",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.24370773489170214
+    },
+    {
+      "repository": "mern-auth",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.20333533533028797
+    },
+    {
+      "repository": "pycon-2016-tutorial",
+      "pattern": "adapter_pattern",
+      "confidence": 0.1234855898305739
+    },
+    {
+      "repository": "pandas-videos",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113387
+    },
+    {
+      "repository": "scikit-learn-videos",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113387
+    },
+    {
+      "repository": "meow",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.15533089999220334
+    },
+    {
+      "repository": "boxen",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113387
+    },
+    {
+      "repository": "ora",
+      "pattern": "singleton_pattern",
+      "confidence": 0.12175410068295432
+    },
+    {
+      "repository": "chalk",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.13307963091492353
+    },
+    {
+      "repository": "np",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.20381731163821706
+    },
+    {
+      "repository": "trash",
+      "pattern": "factory_method_pattern",
+      "confidence": 0.1367597888798586
+    },
+    {
+      "repository": "awesome-nodejs",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113387
+    },
+    {
+      "repository": "coding-interview-university",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113387
+    },
+    {
+      "repository": "computer-science",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113384
+    },
+    {
+      "repository": "free-programming-books",
+      "pattern": "composite_pattern",
+      "confidence": 0.1335861694621721
+    },
+    {
+      "repository": "project-based-learning",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113384
+    },
+    {
+      "repository": "build-your-own-x",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113387
+    },
+    {
+      "repository": "project-based-learning",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113387
+    },
+    {
+      "repository": "Projects",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113387
+    },
+    {
+      "repository": "awesome-for-beginners",
+      "pattern": "adapter_pattern",
+      "confidence": 0.1180341571211339
+    },
+    {
+      "repository": "first-contributions",
+      "pattern": "adapter_pattern",
+      "confidence": 0.1180341571211339
+    },
+    {
+      "repository": "awesome",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113387
+    },
+    {
+      "repository": "awesome-algorithms",
+      "pattern": "adapter_pattern",
+      "confidence": 0.1180341571211339
+    },
+    {
+      "repository": "awesome-python",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113387
+    },
+    {
+      "repository": "awesome-go",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113387
+    },
+    {
+      "repository": "examples",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.2148033748493953
+    },
+    {
+      "repository": "react-native-template-typescript",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.23563291457832627
+    },
+    {
+      "repository": "react-native-svg",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113384
+    },
+    {
+      "repository": "react-native-netinfo",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.20302944778215465
+    },
+    {
+      "repository": "react-native-async-storage",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.21961877407945565
+    },
+    {
+      "repository": "Crafty",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.18260091978623888
+    },
+    {
+      "repository": "melonJS",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.13985970687904367
+    },
+    {
+      "repository": "phaser",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.16901734435646396
+    },
+    {
+      "repository": "BrowserQuest",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.16950367163399344
+    },
+    {
+      "repository": "create-react-app",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.20535460992093815
+    },
+    {
+      "repository": "vue",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.20475934373473723
+    },
+    {
+      "repository": "angular",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.18028356893785355
+    },
+    {
+      "repository": "django",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.17033799032262184
+    },
+    {
+      "repository": "flask",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.13677347577922566
+    },
+    {
+      "repository": "express",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.1450967069492892
+    },
+    {
+      "repository": "rails",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.18682142338884586
+    },
+    {
+      "repository": "laravel",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113384
+    },
+    {
+      "repository": "spring-boot",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.17755556170535822
+    },
+    {
+      "repository": "AspNetCore",
+      "pattern": "adapter_pattern",
+      "confidence": 0.1180341571211339
+    },
+    {
+      "repository": "pandas",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.19048743556337144
+    },
+    {
+      "repository": "scikit-learn",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.17394327028238984
+    },
+    {
+      "repository": "numpy",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.16427230406699578
+    },
+    {
+      "repository": "matplotlib",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.1773073293790615
+    },
+    {
+      "repository": "seaborn",
+      "pattern": "observer_pattern",
+      "confidence": 0.12963552358971295
+    },
+    {
+      "repository": "plotly.py",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113384
+    },
+    {
+      "repository": "notebook",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.2008146468538951
+    },
+    {
+      "repository": "tensorflow",
+      "pattern": "adapter_pattern",
+      "confidence": 0.11803415712113384
+    },
+    {
+      "repository": "keras",
+      "pattern": "abstract_factory_pattern",
+      "confidence": 0.19142946765989163
+    }
+  ]
+}

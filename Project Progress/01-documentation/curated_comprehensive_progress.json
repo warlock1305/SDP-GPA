@@ -1,0 +1,30 @@
+{
+  "collected_repos": [
+    "bradtraversy/50projects50days",
+    "john-smilga/react-projects",
+    "john-smilga/javascript-basic-projects",
+    "bradtraversy/vanillawebprojects",
+    "bradtraversy/expense-tracker-react",
+    "bradtraversy/react-crash-2021",
+    "bradtraversy/taskmanager",
+    "bradtraversy/contact-keeper",
+    "bradtraversy/expense-tracker-mern",
+    "bradtraversy/mern-auth",
+    "justmarkham/pycon-2016-tutorial",
+    "justmarkham/pandas-videos",
+    "justmarkham/scikit-learn-videos",
+    "sindresorhus/meow",
+    "sindresorhus/boxen",
+    "sindresorhus/ora",
+    "sindresorhus/chalk",
+    "sindresorhus/np",
+    "sindresorhus/trash",
+    "sindresorhus/awesome-nodejs",
+    "jwasham/coding-interview-university",
+    "ossu/computer-science",
+    "EbookFoundation/free-programming-books",
+    "practical-tutorials/project-based-learning"
+  ],
+  "failed_repos": [],
+  "total_collected": 24
+}

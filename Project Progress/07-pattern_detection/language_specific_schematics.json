@@ -1,0 +1,253 @@
+{
+  "factory_method_pattern": {
+    "java": {
+      "pattern_name": "factory_method_pattern",
+      "language": "java",
+      "java_specific_patterns": {},
+      "structural_patterns": {
+        "node_count": 8,
+        "edge_count": 4,
+        "density": 0.07142857142857142,
+        "is_connected": false,
+        "node_types": {
+          "class": 6,
+          "unknown": 2
+        },
+        "centrality_patterns": {
+          "max_degree_centrality": 0.42857142857142855,
+          "avg_degree_centrality": 0.14285714285714285,
+          "max_betweenness_centrality": 0.0,
+          "avg_betweenness_centrality": 0.0
+        }
+      },
+      "relational_patterns": {
+        "edge_types": {
+          "implements": 3,
+          "inherits": 1
+        },
+        "inheritance_patterns": {
+          "inheritance_count": 1,
+          "has_inheritance": true
+        },
+        "composition_patterns": {
+          "composition_count": 0,
+          "has_composition": false
+        },
+        "dependency_patterns": {
+          "dependency_count": 0,
+          "has_dependencies": false
+        }
+      }
+    },
+    "python": {
+      "pattern_name": "factory_method_pattern",
+      "language": "python",
+      "python_specific_patterns": {},
+      "structural_patterns": {
+        "node_count": 25,
+        "edge_count": 21,
+        "density": 0.035,
+        "is_connected": false,
+        "node_types": {
+          "class": 6,
+          "unknown": 5,
+          "method": 7,
+          "function": 7
+        },
+        "centrality_patterns": {
+          "max_degree_centrality": 0.25,
+          "avg_degree_centrality": 0.07,
+          "max_betweenness_centrality": 0.0018115942028985507,
+          "avg_betweenness_centrality": 0.00014492753623188405
+        }
+      },
+      "relational_patterns": {
+        "edge_types": {
+          "inherits": 6,
+          "contains": 7,
+          "calls": 8
+        },
+        "inheritance_patterns": {
+          "inheritance_count": 6,
+          "has_inheritance": true
+        },
+        "composition_patterns": {
+          "composition_count": 7,
+          "has_composition": true
+        },
+        "dependency_patterns": {
+          "dependency_count": 8,
+          "has_dependencies": true
+        }
+      }
+    }
+  },
+  "observer_pattern": {
+    "java": {
+      "pattern_name": "observer_pattern",
+      "language": "java",
+      "java_specific_patterns": {},
+      "structural_patterns": {
+        "node_count": 5,
+        "edge_count": 2,
+        "density": 0.1,
+        "is_connected": false,
+        "node_types": {
+          "class": 3,
+          "unknown": 2
+        },
+        "centrality_patterns": {
+          "max_degree_centrality": 0.25,
+          "avg_degree_centrality": 0.2,
+          "max_betweenness_centrality": 0.0,
+          "avg_betweenness_centrality": 0.0
+        }
+      },
+      "relational_patterns": {
+        "edge_types": {
+          "implements": 2
+        },
+        "inheritance_patterns": {
+          "inheritance_count": 0,
+          "has_inheritance": false
+        },
+        "composition_patterns": {
+          "composition_count": 0,
+          "has_composition": false
+        },
+        "dependency_patterns": {
+          "dependency_count": 0,
+          "has_dependencies": false
+        }
+      }
+    }
+  },
+  "singleton_pattern": {
+    "cpp": {
+      "pattern_name": "singleton_pattern",
+      "language": "cpp",
+      "cpp_specific_patterns": {},
+      "structural_patterns": {
+        "node_count": 0,
+        "edge_count": 0,
+        "density": 0,
+        "is_connected": true,
+        "node_types": {},
+        "centrality_patterns": {}
+      },
+      "relational_patterns": {
+        "edge_types": {},
+        "inheritance_patterns": {
+          "inheritance_count": 0,
+          "has_inheritance": false
+        },
+        "composition_patterns": {
+          "composition_count": 0,
+          "has_composition": false
+        },
+        "dependency_patterns": {
+          "dependency_count": 0,
+          "has_dependencies": false
+        }
+      }
+    },
+    "java": {
+      "pattern_name": "singleton_pattern",
+      "language": "java",
+      "java_specific_patterns": {},
+      "structural_patterns": {
+        "node_count": 2,
+        "edge_count": 0,
+        "density": 0,
+        "is_connected": false,
+        "node_types": {
+          "class": 2
+        },
+        "centrality_patterns": {
+          "max_degree_centrality": 0.0,
+          "avg_degree_centrality": 0.0,
+          "max_betweenness_centrality": 0.0,
+          "avg_betweenness_centrality": 0.0
+        }
+      },
+      "relational_patterns": {
+        "edge_types": {},
+        "inheritance_patterns": {
+          "inheritance_count": 0,
+          "has_inheritance": false
+        },
+        "composition_patterns": {
+          "composition_count": 0,
+          "has_composition": false
+        },
+        "dependency_patterns": {
+          "dependency_count": 0,
+          "has_dependencies": false
+        }
+      }
+    },
+    "javascript": {
+      "pattern_name": "singleton_pattern",
+      "language": "javascript",
+      "javascript_specific_patterns": {},
+      "structural_patterns": {
+        "node_count": 1,
+        "edge_count": 0,
+        "density": 0,
+        "is_connected": true,
+        "node_types": {
+          "class": 1
+        },
+        "centrality_patterns": {
+          "max_degree_centrality": 1,
+          "avg_degree_centrality": 1.0,
+          "max_betweenness_centrality": 0.0,
+          "avg_betweenness_centrality": 0.0
+        }
+      },
+      "relational_patterns": {
+        "edge_types": {},
+        "inheritance_patterns": {
+          "inheritance_count": 0,
+          "has_inheritance": false
+        },
+        "composition_patterns": {
+          "composition_count": 0,
+          "has_composition": false
+        },
+        "dependency_patterns": {
+          "dependency_count": 0,
+          "has_dependencies": false
+        }
+      }
+    },
+    "php": {
+      "pattern_name": "singleton_pattern",
+      "language": "php",
+      "php_specific_patterns": {},
+      "structural_patterns": {
+        "node_count": 0,
+        "edge_count": 0,
+        "density": 0,
+        "is_connected": true,
+        "node_types": {},
+        "centrality_patterns": {}
+      },
+      "relational_patterns": {
+        "edge_types": {},
+        "inheritance_patterns": {
+          "inheritance_count": 0,
+          "has_inheritance": false
+        },
+        "composition_patterns": {
+          "composition_count": 0,
+          "has_composition": false
+        },
+        "dependency_patterns": {
+          "dependency_count": 0,
+          "has_dependencies": false
+        }
+      }
+    }
+  }
+}

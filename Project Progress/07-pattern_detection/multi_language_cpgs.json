@@ -1,0 +1,773 @@
+{
+  "factory_method_pattern": {
+    "java": {
+      "nodes": [
+        {
+          "id": "java_class_0",
+          "node_type": "class",
+          "name": "Circle",
+          "language": "java",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\java\\ShapeFactory.java",
+          "line_number": 5,
+          "modifiers": [],
+          "properties": {}
+        },
+        {
+          "id": "java_interface_Shape"
+        },
+        {
+          "id": "java_class_1",
+          "node_type": "class",
+          "name": "Rectangle",
+          "language": "java",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\java\\ShapeFactory.java",
+          "line_number": 11,
+          "modifiers": [],
+          "properties": {}
+        },
+        {
+          "id": "java_class_2",
+          "node_type": "class",
+          "name": "Square",
+          "language": "java",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\java\\ShapeFactory.java",
+          "line_number": 17,
+          "modifiers": [],
+          "properties": {}
+        },
+        {
+          "id": "java_class_3",
+          "node_type": "class",
+          "name": "ShapeFactory",
+          "language": "java",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\java\\ShapeFactory.java",
+          "line_number": 23,
+          "modifiers": [
+            "abstract"
+          ],
+          "properties": {}
+        },
+        {
+          "id": "java_class_4",
+          "node_type": "class",
+          "name": "ConcreteShapeFactory",
+          "language": "java",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\java\\ShapeFactory.java",
+          "line_number": 32,
+          "modifiers": [],
+          "properties": {}
+        },
+        {
+          "id": "java_class_ShapeFactory"
+        },
+        {
+          "id": "java_class_5",
+          "node_type": "class",
+          "name": "Main",
+          "language": "java",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\java\\ShapeFactory.java",
+          "line_number": 44,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {}
+        }
+      ],
+      "edges": [
+        {
+          "source_id": "java_class_0",
+          "target_id": "java_interface_Shape",
+          "edge_type": "implements",
+          "properties": {}
+        },
+        {
+          "source_id": "java_class_1",
+          "target_id": "java_interface_Shape",
+          "edge_type": "implements",
+          "properties": {}
+        },
+        {
+          "source_id": "java_class_2",
+          "target_id": "java_interface_Shape",
+          "edge_type": "implements",
+          "properties": {}
+        },
+        {
+          "source_id": "java_class_4",
+          "target_id": "java_class_ShapeFactory",
+          "edge_type": "inherits",
+          "properties": {}
+        }
+      ],
+      "metadata": {
+        "pattern_name": "factory_method_pattern",
+        "language": "java",
+        "node_count": 8,
+        "edge_count": 4
+      }
+    },
+    "python": {
+      "nodes": [
+        {
+          "id": "py_class_0",
+          "node_type": "class",
+          "name": "Shape",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 3,
+          "modifiers": [
+            "abstract"
+          ],
+          "properties": {
+            "docstring": null,
+            "bases": [
+              "ABC"
+            ]
+          }
+        },
+        {
+          "id": "py_class_ABC"
+        },
+        {
+          "id": "py_method_1",
+          "node_type": "method",
+          "name": "draw",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 5,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_class_2",
+          "node_type": "class",
+          "name": "Circle",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 8,
+          "modifiers": [],
+          "properties": {
+            "docstring": null,
+            "bases": [
+              "Shape"
+            ]
+          }
+        },
+        {
+          "id": "py_class_Shape"
+        },
+        {
+          "id": "py_method_3",
+          "node_type": "method",
+          "name": "draw",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 9,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_class_4",
+          "node_type": "class",
+          "name": "Rectangle",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 12,
+          "modifiers": [],
+          "properties": {
+            "docstring": null,
+            "bases": [
+              "Shape"
+            ]
+          }
+        },
+        {
+          "id": "py_method_5",
+          "node_type": "method",
+          "name": "draw",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 13,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_class_6",
+          "node_type": "class",
+          "name": "Square",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 16,
+          "modifiers": [],
+          "properties": {
+            "docstring": null,
+            "bases": [
+              "Shape"
+            ]
+          }
+        },
+        {
+          "id": "py_method_7",
+          "node_type": "method",
+          "name": "draw",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 17,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_class_8",
+          "node_type": "class",
+          "name": "ShapeFactory",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 20,
+          "modifiers": [
+            "abstract"
+          ],
+          "properties": {
+            "docstring": null,
+            "bases": [
+              "ABC"
+            ]
+          }
+        },
+        {
+          "id": "py_method_9",
+          "node_type": "method",
+          "name": "create_shape",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 22,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self",
+              "shape_type"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_method_10",
+          "node_type": "method",
+          "name": "get_shape",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 25,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self",
+              "shape_type"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_method_create_shape"
+        },
+        {
+          "id": "py_class_11",
+          "node_type": "class",
+          "name": "ConcreteShapeFactory",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 29,
+          "modifiers": [],
+          "properties": {
+            "docstring": null,
+            "bases": [
+              "ShapeFactory"
+            ]
+          }
+        },
+        {
+          "id": "py_class_ShapeFactory"
+        },
+        {
+          "id": "py_method_12",
+          "node_type": "method",
+          "name": "create_shape",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 30,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self",
+              "shape_type"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_method_lower"
+        },
+        {
+          "id": "py_function_13",
+          "node_type": "function",
+          "name": "draw",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 5,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_function_14",
+          "node_type": "function",
+          "name": "draw",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 9,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_function_15",
+          "node_type": "function",
+          "name": "draw",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 13,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_function_16",
+          "node_type": "function",
+          "name": "draw",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 17,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_function_17",
+          "node_type": "function",
+          "name": "create_shape",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 22,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self",
+              "shape_type"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_function_18",
+          "node_type": "function",
+          "name": "get_shape",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 25,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self",
+              "shape_type"
+            ],
+            "is_constructor": false
+          }
+        },
+        {
+          "id": "py_function_19",
+          "node_type": "function",
+          "name": "create_shape",
+          "language": "python",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\factory_method_pattern\\python\\shape_factory.py",
+          "line_number": 30,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {
+            "docstring": null,
+            "args": [
+              "self",
+              "shape_type"
+            ],
+            "is_constructor": false
+          }
+        }
+      ],
+      "edges": [
+        {
+          "source_id": "py_class_0",
+          "target_id": "py_class_ABC",
+          "edge_type": "inherits",
+          "properties": {}
+        },
+        {
+          "source_id": "py_class_0",
+          "target_id": "py_method_1",
+          "edge_type": "contains",
+          "properties": {}
+        },
+        {
+          "source_id": "py_class_2",
+          "target_id": "py_class_Shape",
+          "edge_type": "inherits",
+          "properties": {}
+        },
+        {
+          "source_id": "py_class_2",
+          "target_id": "py_method_3",
+          "edge_type": "contains",
+          "properties": {}
+        },
+        {
+          "source_id": "py_class_4",
+          "target_id": "py_class_Shape",
+          "edge_type": "inherits",
+          "properties": {}
+        },
+        {
+          "source_id": "py_class_4",
+          "target_id": "py_method_5",
+          "edge_type": "contains",
+          "properties": {}
+        },
+        {
+          "source_id": "py_class_6",
+          "target_id": "py_class_Shape",
+          "edge_type": "inherits",
+          "properties": {}
+        },
+        {
+          "source_id": "py_class_6",
+          "target_id": "py_method_7",
+          "edge_type": "contains",
+          "properties": {}
+        },
+        {
+          "source_id": "py_class_8",
+          "target_id": "py_class_ABC",
+          "edge_type": "inherits",
+          "properties": {}
+        },
+        {
+          "source_id": "py_class_8",
+          "target_id": "py_method_9",
+          "edge_type": "contains",
+          "properties": {}
+        },
+        {
+          "source_id": "py_class_8",
+          "target_id": "py_method_10",
+          "edge_type": "contains",
+          "properties": {}
+        },
+        {
+          "source_id": "py_method_10",
+          "target_id": "py_method_create_shape",
+          "edge_type": "calls",
+          "properties": {
+            "target_object": "self"
+          }
+        },
+        {
+          "source_id": "py_class_11",
+          "target_id": "py_class_ShapeFactory",
+          "edge_type": "inherits",
+          "properties": {}
+        },
+        {
+          "source_id": "py_class_11",
+          "target_id": "py_method_12",
+          "edge_type": "contains",
+          "properties": {}
+        },
+        {
+          "source_id": "py_method_12",
+          "target_id": "py_method_lower",
+          "edge_type": "calls",
+          "properties": {
+            "target_object": "shape_type"
+          }
+        },
+        {
+          "source_id": "py_method_12",
+          "target_id": "py_method_lower",
+          "edge_type": "calls",
+          "properties": {
+            "target_object": "shape_type"
+          }
+        },
+        {
+          "source_id": "py_method_12",
+          "target_id": "py_method_lower",
+          "edge_type": "calls",
+          "properties": {
+            "target_object": "shape_type"
+          }
+        },
+        {
+          "source_id": "py_function_18",
+          "target_id": "py_method_create_shape",
+          "edge_type": "calls",
+          "properties": {
+            "target_object": "self"
+          }
+        },
+        {
+          "source_id": "py_function_19",
+          "target_id": "py_method_lower",
+          "edge_type": "calls",
+          "properties": {
+            "target_object": "shape_type"
+          }
+        },
+        {
+          "source_id": "py_function_19",
+          "target_id": "py_method_lower",
+          "edge_type": "calls",
+          "properties": {
+            "target_object": "shape_type"
+          }
+        },
+        {
+          "source_id": "py_function_19",
+          "target_id": "py_method_lower",
+          "edge_type": "calls",
+          "properties": {
+            "target_object": "shape_type"
+          }
+        }
+      ],
+      "metadata": {
+        "pattern_name": "factory_method_pattern",
+        "language": "python",
+        "node_count": 25,
+        "edge_count": 21
+      }
+    }
+  },
+  "observer_pattern": {
+    "java": {
+      "nodes": [
+        {
+          "id": "java_class_0",
+          "node_type": "class",
+          "name": "NewsAgency",
+          "language": "java",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\observer_pattern\\java\\NewsAgency.java",
+          "line_number": 14,
+          "modifiers": [],
+          "properties": {}
+        },
+        {
+          "id": "java_interface_Subject"
+        },
+        {
+          "id": "java_class_1",
+          "node_type": "class",
+          "name": "NewsChannel",
+          "language": "java",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\observer_pattern\\java\\NewsAgency.java",
+          "line_number": 41,
+          "modifiers": [],
+          "properties": {}
+        },
+        {
+          "id": "java_interface_Observer"
+        },
+        {
+          "id": "java_class_2",
+          "node_type": "class",
+          "name": "Main",
+          "language": "java",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\observer_pattern\\java\\NewsAgency.java",
+          "line_number": 54,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {}
+        }
+      ],
+      "edges": [
+        {
+          "source_id": "java_class_0",
+          "target_id": "java_interface_Subject",
+          "edge_type": "implements",
+          "properties": {}
+        },
+        {
+          "source_id": "java_class_1",
+          "target_id": "java_interface_Observer",
+          "edge_type": "implements",
+          "properties": {}
+        }
+      ],
+      "metadata": {
+        "pattern_name": "observer_pattern",
+        "language": "java",
+        "node_count": 5,
+        "edge_count": 2
+      }
+    }
+  },
+  "singleton_pattern": {
+    "cpp": {
+      "nodes": [],
+      "edges": [],
+      "metadata": {
+        "pattern_name": "singleton_pattern",
+        "language": "cpp",
+        "node_count": 0,
+        "edge_count": 0
+      }
+    },
+    "java": {
+      "nodes": [
+        {
+          "id": "java_class_0",
+          "node_type": "class",
+          "name": "DatabaseConnection",
+          "language": "java",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\singleton_pattern\\java\\DatabaseConnection.java",
+          "line_number": 1,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {}
+        },
+        {
+          "id": "java_class_1",
+          "node_type": "class",
+          "name": "Main",
+          "language": "java",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\singleton_pattern\\java\\DatabaseConnection.java",
+          "line_number": 25,
+          "modifiers": [
+            "public"
+          ],
+          "properties": {}
+        }
+      ],
+      "edges": [],
+      "metadata": {
+        "pattern_name": "singleton_pattern",
+        "language": "java",
+        "node_count": 2,
+        "edge_count": 0
+      }
+    },
+    "javascript": {
+      "nodes": [
+        {
+          "id": "js_class_0",
+          "node_type": "class",
+          "name": "DatabaseConnection",
+          "language": "javascript",
+          "file_path": "design_pattern_dataset\\multi_language_demos\\singleton_pattern\\javascript\\database_connection.js",
+          "line_number": 1,
+          "modifiers": [],
+          "properties": {}
+        }
+      ],
+      "edges": [],
+      "metadata": {
+        "pattern_name": "singleton_pattern",
+        "language": "javascript",
+        "node_count": 1,
+        "edge_count": 0
+      }
+    },
+    "php": {
+      "nodes": [],
+      "edges": [],
+      "metadata": {
+        "pattern_name": "singleton_pattern",
+        "language": "php",
+        "node_count": 0,
+        "edge_count": 0
+      }
+    }
+  }
+}
