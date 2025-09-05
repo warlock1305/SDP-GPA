@@ -3,24 +3,17 @@
 
 # But include these essential files and folders
 !scripts/
+!scripts/**
 !*.py
 !*.md
 !*.yaml
 !.gitignore
-!.gitattributes
+!Project Progress/
+!Project Progress/**
+!ml_models_unused/
+!ml_models_unused/**
 
-# Exclude ALL large files and data (including LFS files)
-**/*.pkl
-**/*.joblib
-**/*.bin
-**/*.data-00000-of-00001
-**/*.index
-**/*.c2s
-**/*.num_examples
-**/*.json
-**/*.csv
-
-# Exclude specific large directories completely
+# Exclude large data files from specific locations (but allow them in scripts)
 **/CodeBERTEmbeddings/
 **/feature_cache/
 **/ml_models/
@@ -33,7 +26,6 @@
 **/enhanced_analysis_results/
 **/comprehensive_dataset_analysis/
 **/Legacy Projects*/
-**/Project Progress*/
 **/Repo analyzer*/
 
 # Exclude cache and temporary files
